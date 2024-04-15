@@ -33,7 +33,7 @@ export default forwardRef(({ }, ref) => {
                     value: ag,
                     iconName: "gen-ai",
                     description: ag.status,
-                    tags: [ `Alias: ${ag.alias.agentAliasId} / ${ag.alias.agentAliasStatus}`, "Actualizado: " + formatDates(ag.alias.updatedAt)]
+                    tags: [ `Alias: ${ag.alias.agentAliasId} / ${ag.alias.agentAliasStatus}`, "Updated: " + formatDates(ag.alias.updatedAt)]
                 })
             })
             setAgents(agOptions)
