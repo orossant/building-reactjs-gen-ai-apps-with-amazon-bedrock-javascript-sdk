@@ -81,7 +81,7 @@ export default ({ llm }) => {
                     value={value}
                     disabled={loading}
                     inputMode="text" />
-                <Button fullWidth key={2} loading={loading} onClick={sendText} variant="primary" >Envoyer</Button>
+                <Button fullWidth key={2} loading={loading} onClick={sendText} variant="primary" >Send</Button>
             </SpaceBetween>
 
 
