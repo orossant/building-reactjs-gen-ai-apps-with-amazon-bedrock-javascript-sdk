@@ -46,7 +46,7 @@ export default ({ llm }) => {
     return (
 
         <Container key={2} disableContentPaddings={false}
-            header={<Header variant="h2">Conversacion</Header>}>
+            header={<Header variant="h2">Conversation</Header>}>
 
             <SpaceBetween size="xs">
                 <BedrockKBLoader ref={childRef} key={1} />
@@ -71,7 +71,7 @@ export default ({ llm }) => {
                 }
                 <Textarea
                     fitHeight
-                    placeholder="Escribe algo al modelo..."
+                    placeholder="Write something to the agent..."
                     onChange={changeHandler}
                     onKeyUp={event => processKeyUp(event.detail.keyCode)}
                     value={value}
